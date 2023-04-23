@@ -20,7 +20,6 @@ Os testes unitários em Jest devem ser escritos para garantir que o aplicativo e
 * Componentização
 
 # use
-* react 16.13.0
 * nvm
 * npm
 * nodejs version 18
