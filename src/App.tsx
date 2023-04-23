@@ -1,8 +1,12 @@
-import { Dashboard } from "./pages/Home";
+import { Provider } from 'react-redux';
+import Dashboard from "./pages/Home";
+import store from './store';
 
 function App() {
   return (
-    <Dashboard />
+    <Provider store={store}>
+        <Dashboard />
+    </Provider>
   );
 }
 
